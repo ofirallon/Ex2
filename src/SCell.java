@@ -3,7 +3,7 @@
 public class SCell implements Cell {
     private String line;
     private int type;
-    // Add your code here
+    private int order;
 
     public boolean isNumber(){
         if (getData() == null || getData().isEmpty()) {
@@ -194,48 +194,49 @@ public class SCell implements Cell {
 
 
     public SCell(String s) {
-        // Add your code here
+        // Initialize the data with the provided string
         setData(s);
     }
 
     @Override
     public int getOrder() {
-        // Add your code here
-
-        return 0;
-        // ///////////////////
+        // Return the current order value
+        return this.order;
     }
 
-    //@Override
     @Override
     public String toString() {
+        // Return the data (line) as the string representation of the object
         return getData();
     }
 
     @Override
-public void setData(String s) {
-        // Add your code here
-        line = s;
-        /////////////////////
+    public void setData(String s) {
+        // Set the line value
+        this.line = s;
     }
+
     @Override
     public String getData() {
-        return line;
+        // Return the line value
+        return this.line;
     }
 
     @Override
     public int getType() {
-        return type;
+        // Return the type value
+        return this.type;
     }
 
     @Override
     public void setType(int t) {
-        type = t;
+        // Set the type value
+        this.type = t;
     }
 
     @Override
     public void setOrder(int t) {
-        // Add your code here
-
+        // Set the order value
+        this.order = t;
     }
 }

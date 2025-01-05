@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49bb44d8-955e-48ec-849b-94b96a521742" name="Changes" comment="commit added function that returns true if is text&#10;returs false otherwise">
+    <list default="true" id="49bb44d8-955e-48ec-849b-94b96a521742" name="Changes" comment="commit added function computeForm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCell.java" afterDir="false" />
     </list>
@@ -114,6 +114,7 @@
       <workItem from="1736082080062" duration="23000" />
       <workItem from="1736082127389" duration="3000" />
       <workItem from="1736082264692" duration="13737000" />
+      <workItem from="1736101464338" duration="1740000" />
     </task>
     <task id="LOCAL‎-00001" summary="Initial commit Ex2">
       <option name="closed" value="true" />
@@ -155,7 +156,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1736087990630</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL‎-00006" summary="commit added function computeForm">
+      <option name="closed" value="true" />
+      <created>1736101756741</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL‎-00006" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1736101756741</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +215,8 @@
     <MESSAGE value="Initial commit Ex2" />
     <MESSAGE value="commit added function that returns true if valid number&#10;returs false otherwise" />
     <MESSAGE value="commit added function that returns true if is text&#10;returs false otherwise" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit added function that returns true if is text&#10;returs false otherwise" />
+    <MESSAGE value="commit added function computeForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit added function computeForm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
