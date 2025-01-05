@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49bb44d8-955e-48ec-849b-94b96a521742" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ex2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CellEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2Sheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2Sol_obf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2Sol_v0.2.jar-obf.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Index2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sheet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StdDrawEx2.java" afterDir="false" />
+    <list default="true" id="49bb44d8-955e-48ec-849b-94b96a521742" name="Changes" comment="Initial commit Ex2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +13,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ofirallon/Ex2",
+    "accountId": "70112395-b319-41d1-9a53-6d1e04587430"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -46,12 +48,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ofira/IdeaProjects/Ex2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/ofira/IdeaProjects/Ex2/src/Main.java",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -78,14 +82,28 @@
       <updated>1736082079080</updated>
       <workItem from="1736082080062" duration="23000" />
       <workItem from="1736082127389" duration="3000" />
-      <workItem from="1736082264692" duration="1858000" />
+      <workItem from="1736082264692" duration="3035000" />
     </task>
+    <task id="LOCAL‎-00001" summary="Initial commit Ex2">
+      <option name="closed" value="true" />
+      <created>1736084179382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL‎-00001" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1736084179382</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="a4744efd-64c3-467b-bdcb-6480ee65f20d" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -93,8 +111,37 @@
             <State />
           </value>
         </entry>
+        <entry key="a4744efd-64c3-467b-bdcb-6480ee65f20d">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit Ex2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit Ex2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
