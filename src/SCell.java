@@ -5,18 +5,32 @@ public class SCell implements Cell {
     private int type;
     // Add your code here
 
-    public SCell(String s) {
-        // Add your code here
-        setData(s);
+    public boolean isNumber(){
+        if (getData() == null || getData().isEmpty()) {
+            return false;
+        }
+        int start = 0;
+        if (getData().charAt(0) == '-') {
+            start = 1; // start from the character after the minus
+        }
+        boolean hasDecimalPoint = false;
+        for (int i = start; i < getData().length(); i++) {
+            char c = getData().charAt(i);
+            if (c == '.') {
+                if (hasDecimalPoint) {
+                    return false; // if there is more than one decimal point
+                }
+                hasDecimalPoint = true;
+            }
+            else
+                if (!Character.isDigit(c)) {
+                    return false; // if the character is not a number
+            }
+        }
+        return true; // If all tests pass, this is a valid number
     }
 
-    @Override
-    public int getOrder() {
-        // Add your code here
 
-        return 0;
-        // ///////////////////
-    }
 
     //@Override
     @Override
