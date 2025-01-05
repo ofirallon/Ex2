@@ -30,7 +30,39 @@ public class SCell implements Cell {
         return true; // If all tests pass, this is a valid number
     }
 
+    public boolean isText(){
+        // If the text is null or empty, it is not considered as text
+        if (getData() == null || getData().isEmpty()) {
+            return false;
+        }
 
+        // Check if it's a number
+        if (isNumber()) {
+            return false; // Numbers are not text
+        }
+
+        // Check if this is a formula
+        if (isForm()) {
+            return false; // Formulas are not text
+        }
+
+        // If it's neither a number nor a formula, it's text
+        return true;
+    }
+
+
+    public SCell(String s) {
+        // Add your code here
+        setData(s);
+    }
+
+    @Override
+    public int getOrder() {
+        // Add your code here
+
+        return 0;
+        // ///////////////////
+    }
 
     //@Override
     @Override
