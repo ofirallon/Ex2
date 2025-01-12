@@ -6,7 +6,7 @@ import java.io.IOException;
  * DO NOT CHANGE THIS INTERFACE!!
  * This is NOT a Junit class - as it tests GUI components which
  * should not be tested using Junit.
- * 
+ *
  * The Code uses the STDDraw class:
  * https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html
  * Note: a few minor changes were added to STDDraw suit the logic of Ex2:
@@ -21,7 +21,7 @@ public class Ex2GUI {
 
 	/** The main function for running Ex2 */
 	public static void main(String[] a) {
-		table = new Ex2Sheet(Ex2Utils.WIDTH, Ex2Utils.HEIGHT);
+		table = new Ex2Sheet();
 		testSimpleGUI(table);
 	}
 
@@ -123,7 +123,8 @@ public class Ex2GUI {
 	private static void inputCell(int xx,int yy) {
 		if(table.isIn(xx,yy)) {
 			Cell cc = table.get(xx,yy);
-			String ww = cord+": "+cc.toString()+" : ";
+			cord = new CellEntry(xx, yy);
+			String ww = cord+": " + cc.getData();
 			StdDrawEx2.text(Ex2Utils.GUI_X_START, Ex2Utils.MAX_X-1, ww);
 			StdDrawEx2.show();
 			if(Ex2Utils.Debug) {System.out.println(ww);}

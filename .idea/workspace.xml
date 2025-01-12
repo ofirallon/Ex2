@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49bb44d8-955e-48ec-849b-94b96a521742" name="Changes" comment="commit added function computeForm">
+    <list default="true" id="49bb44d8-955e-48ec-849b-94b96a521742" name="Changes" comment="commit added final completions">
+      <change afterPath="$PROJECT_DIR$/src/Ex2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ex2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CellEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CellEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex2GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ex2Sheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ex2Sheet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCell.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <excluded-from-favorite>
@@ -41,6 +53,9 @@
     &quot;accountId&quot;: &quot;70112395-b319-41d1-9a53-6d1e04587430&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -53,7 +68,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.Ex2GUI.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;JAR Application.Ex2Sol_obf.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.Ex2Sol_v0.2.jar-obf.jar.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Ex2Test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -73,10 +95,19 @@
       <recent name="C:\Users\ofira\IdeaProjects\Ex2\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ex2GUI">
+  <component name="RunManager" selected="JUnit.Ex2Test">
     <configuration name="Ex2GUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ex2GUI" />
       <module name="Ex2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ex2Test" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,9 +116,15 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/src/Ex2Sol_obf.jar" />
       <method v="2" />
     </configuration>
+    <configuration name="Ex2Sol_v0.2.jar-obf.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/Ex2Sol_v0.2.jar-obf.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Ex2Test" />
         <item itemvalue="Application.Ex2GUI" />
+        <item itemvalue="JAR Application.Ex2Sol_v0.2.jar-obf.jar" />
         <item itemvalue="JAR Application.Ex2Sol_obf.jar" />
       </list>
     </recent_temporary>
@@ -114,7 +151,11 @@
       <workItem from="1736082080062" duration="23000" />
       <workItem from="1736082127389" duration="3000" />
       <workItem from="1736082264692" duration="13737000" />
-      <workItem from="1736101464338" duration="1740000" />
+      <workItem from="1736101464338" duration="4835000" />
+      <workItem from="1736181586874" duration="3817000" />
+      <workItem from="1736241480654" duration="1427000" />
+      <workItem from="1736452162522" duration="8242000" />
+      <workItem from="1736685663710" duration="4066000" />
     </task>
     <task id="LOCAL‎-00001" summary="Initial commit Ex2">
       <option name="closed" value="true" />
@@ -164,7 +205,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1736101756741</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎-00007" summary="commit added final completions">
+      <option name="closed" value="true" />
+      <created>1736103328593</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL‎-00007" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1736103328593</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +265,8 @@
     <MESSAGE value="commit added function that returns true if valid number&#10;returs false otherwise" />
     <MESSAGE value="commit added function that returns true if is text&#10;returs false otherwise" />
     <MESSAGE value="commit added function computeForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit added function computeForm" />
+    <MESSAGE value="commit added final completions" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit added final completions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
