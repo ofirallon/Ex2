@@ -17,8 +17,6 @@ The spreadsheet is designed to handle:
 - Error detection (e.g., invalid formulas, circular references).
 - File operations such as saving and loading spreadsheets.
 
-This README provides a comprehensive guide to the project's structure, functionality, and usage.
-
 ---
 
 ## Features
